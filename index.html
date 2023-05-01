@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ketchum Game (╯°□°)╯︵◓</title>
+    <script src="https://kit.fontawesome.com/9cdad5fece.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    
+
+</head>
+<body>
+    <header class="wrapper">
+        <h1>Score: <span class="counter">0</span></h1>
+    </header>
+    <main class="wrapper">
+        <section class="sprites-flex-container">
+            <div class="sprite-container-one poke-container"></div>
+            <div class="sprite-container-two poke-container"></div>
+            <div class="sprite-container-three poke-container"></div>
+        </section>
+        <section>
+            <form action="#" method="#" class="submit-flex-container" name="myForm" autocomplete="off">
+                <div class="select-flex-container">
+                    <div>
+                        <label for="first-pokemon-type">Type of first pokemon:</label>
+                        <select id="first-pokemon-type" name="first-pokemon-type">
+                            <option value="no-value" disabled selected>Choose an option</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="second-pokemon-type">Type of second pokemon:</label>
+                        <select id="second-pokemon-type" name="second-pokemon-type">
+                            <option value="no-value" disabled selected>Choose an option</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="third-pokemon-type">Type of third pokemon:</label>
+                        <select id="third-pokemon-type" name="third-pokemon-type">
+                            <option value="no-value" disabled selected>Choose an option</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="submit-answer">Submit</button>
+                </div>
+            </form>
+        </section>
+        <section class="play-again-container">
+            <button class="play-again hide">Fetch me more Pokémon!</button>
+        </section>
+    </main>
+    <footer>
+        <p>Created at Juno</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
